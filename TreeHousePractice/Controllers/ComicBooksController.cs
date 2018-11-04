@@ -18,12 +18,11 @@ namespace TreeHousePractice.Controllers
         {
             _comicBookrepository = new ComicBookRepository();
         }
-
         public ActionResult Index()
         {
-            var comicbooks = _comicBookrepository.GetComicBooks();
+            var comicBook = _comicBookrepository.GetComicBooks();
 
-            return View(comicbooks);
+            return View(comicBook);
         }
 
         public ActionResult Detail(int? id)

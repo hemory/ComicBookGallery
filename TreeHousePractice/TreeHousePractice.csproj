@@ -11,5 +11,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Data\GetComicBook.cs" />
+    <Compile Remove="Models\ErrorViewModel.cs" />
+    <Compile Remove="Controllers\HomeController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Home\About.cshtml" />
+    <Content Remove="Views\Home\Contact.cshtml" />
+    <Content Remove="Views\Home\Index.cshtml" />
+    <Content Remove="Views\Shared\Error.cshtml" />
   </ItemGroup>
 </Project>

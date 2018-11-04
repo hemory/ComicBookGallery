@@ -56,7 +56,7 @@ namespace TreeHousePractice
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=ComicBooks}/{action=Index}/{id?}");
             });
         }
     }
