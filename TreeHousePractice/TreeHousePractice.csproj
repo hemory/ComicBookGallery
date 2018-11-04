@@ -7,5 +7,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ComicBooks\" />
+    <Folder Include="Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Data\GetComicBook.cs" />
   </ItemGroup>
 </Project>
